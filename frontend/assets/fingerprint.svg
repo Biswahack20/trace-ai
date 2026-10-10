@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24C8FF" />
+      <stop offset="100%" stop-color="#168BFF" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g stroke="url(#cyanGrad)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <!-- Core loop -->
+    <path d="M 50 43 C 48 43, 46 45, 46 48 C 46 54, 52 56, 52 64 C 52 68, 50 71, 48 74" />
+    <path d="M 50 37 C 44 37, 40 42, 40 49 C 40 57, 46 60, 46 68 C 46 73, 44 76, 42 79" />
+    <!-- Intermediate loops -->
+    <path d="M 50 31 C 41 31, 34 38, 34 49 C 34 60, 40 64, 40 73 C 40 78, 38 82, 36 84" />
+    <path d="M 50 25 C 37 25, 28 34, 28 49 C 28 63, 34 68, 34 78 C 34 82, 33 85, 31 87" />
+    <!-- Outer arches -->
+    <path d="M 50 19 C 33 19, 22 30, 22 49 C 22 66, 28 72, 28 82" />
+    <path d="M 50 13 C 29 13, 16 26, 16 49 C 16 68, 22 76, 22 86" />
+    <!-- Right arches -->
+    <path d="M 50 43 C 52 43, 54 45, 54 48 C 54 53, 50 56, 50 63" />
+    <path d="M 50 37 C 56 37, 60 42, 60 49 C 60 57, 56 62, 56 70 C 56 75, 58 78, 60 81" />
+    <path d="M 50 31 C 59 31, 66 38, 66 49 C 66 61, 62 66, 62 75 C 62 80, 64 83, 67 85" />
+    <path d="M 50 25 C 63 25, 72 34, 72 49 C 72 64, 68 70, 68 79 C 68 84, 71 87, 74 89" />
+    <path d="M 50 19 C 67 19, 78 30, 78 49 C 78 67, 74 74, 74 84" />
+    <path d="M 50 13 C 71 13, 84 26, 84 49 C 84 70, 80 78, 80 88" />
+  </g>
+</svg>
