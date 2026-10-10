@@ -1,0 +1,44 @@
+/* TraceMind AI — Starter Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 2rem;
+}
+
+header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    color: #38bdf8;
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+p {
+    color: #94a3b8;
+}
+
+#status-card {
+    background-color: #1e293b;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    max-width: 600px;
+}
+
+#status-card h2 {
+    color: #f8fafc;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
